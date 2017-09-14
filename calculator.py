@@ -33,22 +33,21 @@ def main():
     operation = int(input("Choose your operation choice: (1/2/3/4/5) "))
     num1 = int(input("Please enter your first number: "))
     num2 = int(input("Please enter your second numbebr: "))
-    num1 = x
-    num2 = y
+
 
     if operation == 1:
-        print(add)
+        print(add(num1,num2))
 
     elif operation == 2:
-        print(subtract)
+        print(subtract(num1,num2))
 
     elif operation == 3:
-        print(divide)
+        print(divide(num1,num2))
 
     elif operation == 4:
-        print(multiply)
+        print(multiply(num1,num2))
 
     elif operation == 5:
-        print(square)
+        print(square(num1,num2))
 
 main()
