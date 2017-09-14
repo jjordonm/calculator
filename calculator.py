@@ -50,4 +50,7 @@ def main():
     elif operation == 5:
         print(square(num1,num2))
 
+    else:
+        print("Please restart and enter a valid operation choice.")
+
 main()
